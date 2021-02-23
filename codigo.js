@@ -4,8 +4,6 @@ function inicio()
     var boton = document.getElementById("boton");
 
     boton.addEventListener('click', function() {
-
-
         document.getElementById('TextoFortalezas').innerHTML='Fortalezas';
         document.getElementById('TextoDebilidades').innerHTML='Debilidades';
         var fortalezas1 = 0
@@ -294,7 +292,7 @@ function inicio()
         {
             fortalezas2 += 1;
         }
-        else if (considerado.checked)
+        else if (considerado3.checked)
         {
             fortalezas3 += 1;
         }
@@ -666,19 +664,19 @@ function inicio()
 
         if (ostentoso.checked)
         {
-            fortalezas1 += 1;
+            debilidades1 += 1;
         }
         else if (enseñoreador.checked)
         {
-            fortalezas2 += 1;
+            debilidades2 += 1;
         }
         else if (solitario.checked)
         {
-            fortalezas3 += 1;
+            debilidades3 += 1;
         }
         else if (perezoso.checked)
         {
-            fortalezas4 += 1;
+            debilidades4 += 1;
         }
         //////////////////////////////////////////////////////////4.3
 
