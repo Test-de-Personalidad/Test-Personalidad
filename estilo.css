@@ -5,7 +5,10 @@
     margin: 0;
     padding: 0; 
 }
-
+.Cualidades
+{
+    font-size:1vmax;
+}
 .TextoFortalezas
 {
     color: #00a288;
@@ -23,11 +26,11 @@ p{
 }
 .TablaInternaFortalezas
 {
-    width: 100%;
+    width:1vmax;
 }
 .TablaInternaDebilidades
 {
-    width: 100%;
+    width:1vmax;
 }
 .Emociones
 {
@@ -59,7 +62,7 @@ p{
 
 .TablaFortalezas
 {
-    width: 280px;
+    width: 17vmax;
     align-content: center;
     text-align: center;
     color: #22e1c7;
@@ -71,8 +74,8 @@ p{
     border-radius: 5px;
     border-color: #00a288;
     
-    height: 93%;
-    width: 24%;
+    height:93%;
+    width: 23vmax;
     display: inline-block;
     padding: 20px;
     position: fixed;
@@ -87,7 +90,7 @@ p{
 
 .TablaDebilidades
 {
-    width: 280px;
+    width: 17vmax;
     align-content: center;
     text-align: center;
     color: #fb464f;
@@ -100,7 +103,7 @@ p{
     border-color: #f03107;
 
     height: 93%;
-    width: 24%;
+    width: 23vmax;
     display: inline-block;
     padding: 20px;
     position: fixed;
@@ -140,9 +143,9 @@ p{
 .titulo
 {   
     margin: 0 auto;
-    width: 600px;
+    width: 39.7%;
+    height: 80%;
     background-color: #058586; 
-    height: 80px;
 }
 
 h1{
@@ -156,9 +159,15 @@ h1{
     margin-top: 30px;
     margin: 0 auto;
     border-collapse: separate;
-    border-spacing: 15px;
+    border-spacing: 1vmax;
 }
 
+.formulario
+{
+    width: 41%;
+    height: 90%;
+    margin: 0 auto;
+}
 
 .formulario input[type="checkbox"]
 {
